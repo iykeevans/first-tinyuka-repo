@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  width: 100%;
+  height: 400px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+
+  /* Align items center */
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+}
+
+.navigation a:hover {
+  color: red;
+}
+
+.container {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
